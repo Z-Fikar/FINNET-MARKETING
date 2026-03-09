@@ -1,0 +1,1 @@
+{"name":"FINNET-MARKETING-USECASE 1-QUEUE HANDLER","description":"","manual":"","outputType":"project","main":"/Main process.flow","version":"1.0.0","engines":{"designer":"5.0.RT196","server":"5.0.RT196","executor-runtime":"4.2.0"},"uuid":"26beef45-a931-4843-b155-ea9e62eb54f7","dependencies":{"Outlook_Automation":"1.0.4"}}

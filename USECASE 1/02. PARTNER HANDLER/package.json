@@ -1,0 +1,1 @@
+{"name":"FINNET-MARKETING-USECASE 1-PARTNER HANDLER","description":"","manual":"","outputType":"project","main":"/Main process.flow","version":"1.0.0","engines":{"designer":"5.0.RT196","server":"5.0.RT196","executor-runtime":"4.2.0"},"uuid":"8d2e6b5e-7c5b-4c0a-9c8e-2c7a7c9f2c0d","dependencies":{"Outlook_Automation":"1.0.4"}}
