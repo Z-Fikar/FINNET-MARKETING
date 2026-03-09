@@ -1,0 +1,53 @@
+services:
+  sftp:
+    image: atmoz/sftp:latest
+    container_name: sftp-server
+    ports:
+      - "22:22"
+    volumes:
+      - ./SFTP-DATA:/home/sftpuser/FTP
+    command: sftpuser:Sftp123!:1001
+    restart: unless-stopped
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-server
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: Root123!
+      MYSQL_USER: mysql_user
+      MYSQL_PASSWORD: Mysql123!
+    volumes:
+      - ./MYSQL-DATA:/var/lib/mysql
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "mysqladmin",
+          "ping",
+          "-h",
+          "localhost",
+          "-u",
+          "mysql_user",
+          "-pMysql123!",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  wm-bot:
+    image: zulfikardocker/wm-bot:latest
+    container_name: wm-bot
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./WM-DATA/.env
+    volumes:
+      - ./WM-DATA:/data

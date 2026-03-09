@@ -1,0 +1,11 @@
+# Ignore everything inside ANY .cyclone directory (recursive)
+**/.cyclone/*
+
+# Allow snapshots directory
+!**/.cyclone/snapshots/
+
+# Allow everything inside snapshots
+!**/.cyclone/snapshots/**
+
+WM-DATA/store.db
+MYSQL-DATA/
