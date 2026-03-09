@@ -1,0 +1,17 @@
+key,value
+overide_process_date,
+sharepoint_path,C:\RPA\FINNET-FINANCE\USECASE 1\02. ACCOUNT HANDLER\SHAREPOINT
+archive_path,C:\RPA\FINNET-FINANCE\USECASE 1\02. ACCOUNT HANDLER\ARCHIVED
+email_account,hasby.fahrulloh@elistec.com
+email_receiver,hasby.fahrulloh@elistec.com
+email_cc,hasby.fahrulloh@elistec.com
+email_bcc,hasby.fahrulloh@elistec.com;hasby.fahrulloh@elistec.com
+master_bank_file,master_bank.csv
+master_account_file,master_account.csv
+wm_base_url,http://localhost:8080
+wm_api_key,12bf2f26-7d17-4f22-8a10-d1e2011a8acd
+db_address,localhost
+db_port,3306
+db_user,root
+db_pass,Root123!
+db_name,wm_messages

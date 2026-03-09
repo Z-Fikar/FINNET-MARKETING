@@ -1,0 +1,6 @@
+bank_code,bank_name,bank_url,company_id,username,password,phone_number,download_threshold
+MANDIRI,Bank Mandiri,https://koprabymandiri.com,FNIN001,INQ3,RPAdes=2625,,60
+BNI,Bank Negara Indonesia,https://bnidirect.bni.co.id,FINNET,INQ8,RPAdes&2625,,60
+BCA,Bank Central Asia,https://vpn.klikbca.com,IBSFINESIA,INQ001,,089523406035,60
+BRI,Bank Rakyat Indonesia,https://ibank.bri.co.id,FINNET INDONESIA,INQUIRY4,RPAdes&2625,,60
+BUKOPIN,Bank Bukopin,https://kbstarbiz.kbbank.co.id,FINNET001,INQUIRY1,RPAdes&2601,,60
