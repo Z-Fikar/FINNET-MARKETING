@@ -1,13 +1,12 @@
 key,value
-overide_process_date,
-sharepoint_path,C:\RPA\FINNET-FINANCE\USECASE 1\02. ACCOUNT HANDLER\SHAREPOINT
-archive_path,C:\RPA\FINNET-FINANCE\USECASE 1\02. ACCOUNT HANDLER\ARCHIVED
-email_account,hasby.fahrulloh@elistec.com
-email_receiver,hasby.fahrulloh@elistec.com
-email_cc,hasby.fahrulloh@elistec.com
-email_bcc,hasby.fahrulloh@elistec.com;hasby.fahrulloh@elistec.com
-master_bank_file,master_bank.csv
-master_account_file,master_account.csv
+override_process_date,
+sharepoint_path,C:\RPA\FINNET-MARKETING\USECASE 1\SHAREPOINT
+archive_path,C:\RPA\FINNET-MARKETING\USECASE 1\ARCHIVED
+master_partner,master_partner.csv
+email_account,arkan.wicaksono@elistec.com
+email_receiver,arkan.wicaksono@elistec.com
+email_cc,arkan.wicaksono@elistec.com`
+email_bcc,arkan.wicaksono@elistec.com;
 wm_base_url,http://localhost:8080
 wm_api_key,12bf2f26-7d17-4f22-8a10-d1e2011a8acd
 db_address,localhost
@@ -15,3 +14,8 @@ db_port,3306
 db_user,root
 db_pass,Root123!
 db_name,wm_messages
+waiting_threshold,900
+sftp_server,localhost
+sftp_port,22
+sftp_user,sftpuser
+sftp_password,Sftp123!
