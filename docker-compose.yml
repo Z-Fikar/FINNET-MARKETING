@@ -1,7 +1,7 @@
 services:
   sftp:
     image: atmoz/sftp:latest
-    container_name: sftp-server
+    container_name: sftp-serverz
     ports:
       - "22:22"
     volumes:
@@ -11,7 +11,7 @@ services:
 
   mysql:
     image: mysql:8.0
-    container_name: mysql-server
+    container_name: mysql-serverz
     restart: unless-stopped
     ports:
       - "3306:3306"
@@ -40,7 +40,7 @@ services:
 
   wm-bot:
     image: zulfikardocker/wm-bot:latest
-    container_name: wm-bot
+    container_name: wm-botz
     restart: unless-stopped
     depends_on:
       mysql:
